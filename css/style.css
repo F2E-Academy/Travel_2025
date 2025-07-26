@@ -1,0 +1,128 @@
+/*------Reset-----*/
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.decor{
+    width: 565px;
+    height: 565px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+img{
+   max-width: 100%;
+}
+p{
+    font-family: poppins;
+    font-size: 16px;
+    color: #5E6282;
+}
+/*------main-----*/
+.container{
+    width: 1170px; 
+    background-color: aqua; 
+    margin: 0 auto;   
+
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.Hero_TXT_Block{
+    width: 50%;
+    float: left;
+    margin-bottom: 60px;
+   
+
+}
+
+.Hero_TXT_Block h3 {
+    font-family: poppins;
+    font-size: 20px;
+    color: #DF6951;
+    text-transform: uppercase;
+}
+
+.Hero_TXT_Block h1{
+  font-family: "Volkhov", serif;
+  font-size: 80px;
+  color: #181E4B;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Hero_TXT_Block p{
+    margin-bottom: 30px;
+}
+.Hero_IMG_Block{
+    width: 50%;
+    float: left;
+    position: relative;
+   
+}
+
+.ThemeBTN{
+    padding: 0 20px;   
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.YBTN{
+ background-color: #F1A501;
+ border-radius: 10px;
+ color: white;
+ float: left;
+ margin-right: 20px;
+}
+/*--======MENU Section======--*/
+
+.NavSection{
+    background-color: #DF6951;
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+}
+
+.LogoBlock{
+    width: 200px;
+    float: left;
+    padding-top: 15px;
+   
+
+}
+
+.MenuBlock{
+    width: calc(100% - 200px);
+    float: left;
+   
+
+}
+
+
+.MenuBlock ul{
+    list-style-type: none;
+    float: right;
+
+}
+.MenuBlock ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.MenuBlock ul li a {
+    text-decoration: none;
+    color: black; 
+font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto; 
+}
